@@ -72,7 +72,7 @@ DevHub is an all-in-one productivity platform for developers built with modern m
 │ Todo Service │            │Notes Service │            │  CV Service  │
 │   NestJS     │            │   NestJS     │            │   GoFiber    │
 │   Port 3001  │            │   Port 3002  │            │   Port 3003  │
-│   JWT ✓      │            │  JWT ✓      │            │   JWT ✓      │
+│   JWT ✓      │            │  JWT ✓       │            │   JWT ✓      │
 └──────┬───────┘            └──────┬───────┘            └──────┬───────┘
        │                           │         🤖 AI Call      │
        │                           │                         │
@@ -283,4 +283,5 @@ DevHub Team
 ---
 
 **Happy Coding! 🚀**
+
 
