@@ -1,0 +1,25 @@
+# DevHub Root .gitignore
+#
+# ⚠️ Note: Each service has its own .gitignore
+# This root file only ignores shared/common items
+
+# Docker
+docker-compose.override.yml
+
+# Database volumes
+postgres_data/
+
+# Global environment (if any)
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE (workspace level)
+.vscode/
+.idea/
+
+# Logs (root level)
+*.log
+logs/
