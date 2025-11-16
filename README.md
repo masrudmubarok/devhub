@@ -4,13 +4,13 @@ DevHub is an all-in-one productivity platform for developers built with modern m
 
 ## 📚 Documentation
 
+- **[Quick Start Guide](./docs/quickstart.md)** - Getting started quickly
 - **[Project Structure](./docs/project_structure.md)** - Complete folder structure
 - **[Clean Architecture](./docs/architecture.md)** - Detailed clean architecture implementation
 - **[System Design](./docs/system_design.md)** - System design and patterns
 - **[JWT Authentication](./docs/jwt_authentication.md)** - JWT authentication implementation
 - **[Auth Service API](./docs/auth_service_api.md)** - Authentication & admin endpoints
 - **[API Examples](./docs/api_examples.md)** - API endpoint examples
-- **[Quick Start Guide](./docs/quickstart.md)** - Getting started quickly
 - **[Contributing](./docs/contributing.md)** - Contribution guidelines
 - **[Changelog](./docs/changelog.md)** - Version history
 
@@ -226,7 +226,7 @@ docker-compose down            # Stop all services
 docker-compose logs -f         # View logs
 ```
 
-📖 **See [Quick Start Guide](./QUICKSTART.md) for more Docker commands.**
+📖 **See [Quick Start Guide](./docs/quickstart.md) for more Docker commands.**
 
 
 
@@ -236,7 +236,7 @@ docker-compose logs -f         # View logs
 - **Database Migrations** - Update `database/init.sql` and restart
 - **Environment Variables** - Configure via `.env` file
 
-📖 **See [Clean Architecture](./CLEAN_ARCHITECTURE.md) and [Contributing](./CONTRIBUTING.md) for guidelines.**
+📖 **See [Clean Architecture](./docs/architecture.md) and [Contributing](./docs/contributing.md) for guidelines.**
 
 ## 🔒 Security
 
@@ -262,7 +262,7 @@ docker-compose logs -f         # View logs
 - Vercel (Frontend) + Railway/Render (Backend)
 - AWS / DigitalOcean / Google Cloud
 
-📖 **See [Architecture Overview](./ARCHITECTURE.md) for deployment strategies.**
+📖 **See [System Design](./docs/system_design.md) for deployment strategies.**
 
 ## 🤝 Contributing
 
@@ -283,5 +283,6 @@ DevHub Team
 ---
 
 **Happy Coding! 🚀**
+
 
 
