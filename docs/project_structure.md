@@ -228,7 +228,7 @@ devhub/
 ### Technologies Used
 - **6 Different Technologies**: Next.js, Express.js, NestJS, Go, FastAPI, PostgreSQL
 - **4 Programming Languages**: TypeScript, JavaScript, Go, Python
-- **7 Microservices**: Frontend, Gateway, 3 Business Services, AI Service, Database
+- **6 Microservices**: Frontend, Main Service, 3 Business Services, AI Service
 
 ### Features Count
 - **3 Main Modules**: Todos, Notes, CV
@@ -341,3 +341,4 @@ This project demonstrates:
 ---
 
 **Built with ❤️ for developers**
+
