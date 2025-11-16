@@ -4,8 +4,8 @@ DevHub is an all-in-one productivity platform for developers built with modern m
 
 ## 📚 Documentation
 
-- **[Architecture](./docs/architecture.md)** - Detailed clean architecture implementation
 - **[Project Structure](./docs/project_structure.md)** - Complete folder structure
+- **[Clean Architecture](./docs/architecture.md)** - Detailed clean architecture implementation
 - **[System Design](./docs/system_design.md)** - System design and patterns
 - **[JWT Authentication](./docs/jwt_authentication.md)** - JWT authentication implementation
 - **[Auth Service API](./docs/auth_service_api.md)** - Authentication & admin endpoints
@@ -283,3 +283,4 @@ DevHub Team
 ---
 
 **Happy Coding! 🚀**
+
