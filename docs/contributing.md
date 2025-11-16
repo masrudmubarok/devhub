@@ -103,11 +103,11 @@ npm test
 ```
 devhub/
 ├── devhub-fe-main-web/          # Next.js frontend
-├── devhub-be-main-service/      # API Gateway
-├── devhub-be-todo-service/      # Todo microservice
-├── devhub-be-notes-service/     # Notes microservice
-├── devhub-be-cv-service/        # CV microservice (Go)
-├── devhub-be-ai-service/        # AI microservice (Python)
+├── devhub-be-main-service/      # Auth microservice (Express.js)
+├── devhub-be-todo-service/      # Todo microservice (Nest.js)
+├── devhub-be-notes-service/     # Notes microservice (Nest.js)
+├── devhub-be-cv-service/        # CV microservice (Go Fiber)
+├── devhub-be-ai-service/        # AI microservice (Python FastAPI)
 └── database/                    # Database schemas
 ```
 
@@ -162,10 +162,10 @@ Please update documentation when:
 - Changing architecture
 
 Files to update:
-- `README.md` - Main documentation
-- `API_EXAMPLES.md` - API usage examples
-- `ARCHITECTURE.md` - Architecture details
-- `QUICKSTART.md` - Setup instructions
+- `readme.md` - Main documentation
+- `api_examples.md` - API usage examples
+- `system_design.md` - Architecture details
+- `quickstart.md` - Setup instructions
 
 ## Testing Guidelines
 
@@ -217,8 +217,8 @@ Before submitting PR:
 ## Recognition
 
 Contributors will be added to:
-- README.md Contributors section
-- CHANGELOG.md for their contributions
+- readme.md Contributors section
+- changelog.md for their contributions
 
 ## License
 
@@ -227,3 +227,4 @@ By contributing, you agree that your contributions will be licensed under the MI
 ---
 
 **Thank you for contributing to DevHub! 🚀**
+
