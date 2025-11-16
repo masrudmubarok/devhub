@@ -168,10 +168,10 @@ JWT_EXPIRES_IN=7d
 - **Alternative:** Memory storage + refresh token in httpOnly cookie
 - **Avoid:** localStorage in production (vulnerable to XSS)
 
-📖 **See [JWT Authentication Guide](./JWT_AUTHENTICATION.md) for secure implementation details.**
+📖 **See [JWT Authentication Guide](./docs/jwt_authentication.md) for secure implementation details.**
 
 ### Manual Development
-See **[Quick Start Guide](./QUICKSTART.md)** for detailed setup instructions.
+See **[Quick Start Guide](./docs/quickstart.md)** for detailed setup instructions.
 
 **Prerequisites:** Node.js 20+, Go 1.21+, Python 3.11+, Docker, PostgreSQL 15+
 
@@ -189,7 +189,7 @@ See **[Quick Start Guide](./QUICKSTART.md)** for detailed setup instructions.
 Authorization: Bearer <your_jwt_token>
 ```
 
-📖 **See [API Examples](./API_EXAMPLES.md) for detailed endpoints and request examples.**
+📖 **See [API Examples](./docs/api_example.md) for detailed endpoints and request examples.**
 
 ## 🤖 AI Features Powered by Google Gemini
 
@@ -206,7 +206,7 @@ Authorization: Bearer <your_jwt_token>
 - **Translate** - Translate EN ↔ ID
 - **Suggest Title** - Suggest modern job titles
 
-📖 **See [API Examples](./API_EXAMPLES.md) for usage examples.**
+📖 **See [API Examples](./docs/api_examples.md) for usage examples.**
 
 ## 🗄️ Database
 
@@ -216,7 +216,7 @@ Schema defined in `database/init.sql` includes:
 - Users, Todos, Notes, Snippets
 - CVs, Experiences, Education, Skills, Projects
 
-📖 **See [Project Structure](./PROJECT_STRUCTURE.md) for detailed schema.**
+📖 **See [Project Structure](./docs/project_structure.md) for detailed schema.**
 
 ## 🐳 Docker
 
@@ -283,6 +283,7 @@ DevHub Team
 ---
 
 **Happy Coding! 🚀**
+
 
 
 
